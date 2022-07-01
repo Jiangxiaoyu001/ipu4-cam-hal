@@ -1,0 +1,17 @@
+prefix=/home/jiangxiaoyu/jiangxiaoyu/git/MR4_RELEASE/prepared_rel4github/ipu4-camera-hal/ipu4-camera-bins/
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libiacss
+Description: Camera Subsystem libraries on IA
+URL:
+Version: 
+Libs: -L${libdir} -lgcss -lia_camera -lia_cipf
+Cflags: -I${includedir} \
+        -I${includedir}/ia_camera \
+        -I${includedir}/ia_cipf   \
+        -I${includedir}/ia_cipf_common \
+        -I${includedir}/ia_cipf_css \
+        -I${includedir}/ia_cipr \
+        -I${includedir}/ia_tools

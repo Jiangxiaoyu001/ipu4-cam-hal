@@ -1,0 +1,11 @@
+prefix=/home/jiangxiaoyu/jiangxiaoyu/git/MR4_RELEASE/prepared_rel4github/ipu4-camera-hal/ipu4-camera-bins/
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libia_imaging
+Description: ia_imaging libraries
+URL: http://www.intel.com
+Version: VERSION
+Libs: -L${libdir}
+Cflags: -I${includedir}/ia_imaging
